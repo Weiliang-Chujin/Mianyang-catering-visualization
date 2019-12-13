@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>团购网站餐饮类的可视分析系统</title>
+		<script src="js/d3.min.js"></script>
+		<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=您申请的key值"></script>
+		<script src="js/d3.layout.cloud.js"></script>
+		<link href="css/index.css" rel="stylesheet" type="text/css"/>
+		<link href="css/base.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="left">
+			<hr  id="hr1" />
+				<div id="time">
+					<h2>时序特征</h2>
+						<script type="text/javascript" src="js/time.js"></script>
+				</div>
+				<div id="star">
+					<h2>星级偏好</h2>
+						<script type="text/javascript" src="js/review_count.js"></script>
+						<script type="text/javascript" src="js/shop.js"></script>
+				</div>
+		</div>
+		<div id="center">
+			<h1>团购网站餐饮类的可视分析系统</h1>
+			<div id="container" style="width:500px; height:265px">
+				<script>
+					var map = new AMap.Map('container',{    zoom: 13,    center: [104.747498,31.461228]});
+				</script>
+			</div>
+			<div id="shopType">
+				<h2>饮食特点</h2>
+				<script type="text/javascript" src="js/shopType.js"></script>
+			</div>
+		</div>
+		<div id="right">
+			<hr  id="hr2"/>
+			<div id ="con">
+				<h2 id="p1">消费满意度(共0条评论)</h2>
+				<div id="rating">
+					<script type="text/javascript" src="js/rating.js"></script>
+				</div>
+				<div id="tast">
+					<script type="text/javascript" src="js/tast.js"></script>
+				</div>
+				<div id="environment">
+					<script type="text/javascript" src="js/environment.js"></script>
+				</div>
+				<div id="service">
+					<script type="text/javascript" src="js/service.js"></script>
+				</div>
+			</div>
+			<div id="mianyang">
+				<script type="text/javascript" src="js/mianyangMap.js"></script>
+			</div>
+			<div id="clouds">
+				<script type="text/javascript" src="js/cloud.js"></script>
+			</div>
+		 </div>
+	</body>
+</html>

@@ -1,0 +1,122 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}/*总的设置*/
+html{ 
+	height: 100%; 
+	width: 100%; 
+}
+body{ 
+	overflow-x:hidden;/*剪裁多余的，不提供横向滚动机制，也就是不出现横向滚动条*/
+	overflow-y:hidden;/*剪裁多余的，不提供横向滚动机制，也就是不出现横向滚动条*/
+	min-height: 100%; 
+	background: linear-gradient(#009ad6,#1E90FF,#426ab3); 
+	font-family: "宋体"; 
+	color:aliceblue;
+}
+#left{
+	width: 30%;
+	float: left;	
+	padding-top: 20px;
+}
+#time{	
+	width: 397px;
+	height: 337px;
+	margin-top: 5px;
+	padding-left: 15px;
+	background-color: #494e8f;
+	border: 2px solid #f15a22;
+}
+#time h2{
+	padding-bottom: 5px;
+}
+h2{
+	padding-top: 2px;
+}
+#star{
+	padding-left: 10px;
+	margin-top: 2px;
+	height: 282px;
+	width: 402px;
+	background-color: #6f60aa;
+	border: 2px solid #f15a22;
+}
+#center{
+	float: left;
+	width: 40%;
+	padding-top: 2px;
+}
+#center h1{
+	text-align: center;
+}
+#container{
+	margin-top: 2px;
+	margin-left: 25px;
+	border-style: solid; 
+	border-width: 5px;
+	border-color: #CC3333;
+}
+#shopType{
+	margin-top: 2px;
+	margin-bottom: 5px;
+	margin-left: 24px;
+	width: 93%;
+	height: 333px;
+	background-color:#6f60aa;
+	border: 2px solid #f15a22;
+}
+#shopType h2{
+	padding-left: 10px;
+	padding-top: 2px;
+}
+#right{
+	float: right;
+	width: 30%;
+	padding-top: 20px;
+}
+#con h2{
+	margin-bottom: 8px;
+	padding-left: 8px;
+}
+#con{
+	margin-top: 4px;
+	height: 400px;
+	width: 405px;
+	background-color: #2a5caa;
+	border: 2px solid #f15a22;
+}
+#rating{
+	float: left;
+	padding-left: 13px;
+	width: 45%;
+}
+#tast{
+	float: right;
+	padding-right: 7px;
+	width: 45%;
+}
+#environment{
+	float: left;
+	padding-left: 13px;
+	width: 45%;
+}
+#service{
+	float: right;
+	padding-right: 7px;
+	width: 45%;
+}
+#mianyang{
+	float: left;
+	width: 50%;
+	background-color:#224b8f;
+	border: 2px solid #f15a22;
+	height: 220px;
+}
+#clouds{
+	float: right;
+	padding-right: 12px;
+	width: 45%;
+	background-color:#224b8f;
+	border: 2px solid #f15a22;
+	height: 220px;
+}
